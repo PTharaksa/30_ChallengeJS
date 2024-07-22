@@ -1,0 +1,37 @@
+body {
+  background-image: url("background.jpg"); 
+  font-size: 50px; 
+}
+
+.keycap {
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+}
+
+.data-key {
+   display: grid;
+   border-style: solid;
+   border-color: black;
+   border-radius: 6.5%;
+   margin: 10px 10px 15px 15px;
+   background-color: black;
+   color: azure;
+   width: 5%;
+   transition: all .07s ease;
+}
+
+kbd {
+    text-align: center;
+}
+
+span {
+    font-size: 35%;
+    text-align: center;
+}
+
+.press {
+    transform: scale(1.1);
+    border-color: blueviolet;
+    box-shadow: 0 0 1rem blueviolet;
+}
